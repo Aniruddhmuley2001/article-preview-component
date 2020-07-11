@@ -5,32 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!--Linking the font families to be used-->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+  <!-- Linking style.css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Linking Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
   <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
+<body style="background-color: hsl(210, 46%, 95%);">
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col-md-3" style="padding-left: 0px; padding-right: 0px  ;">
+        <img src="images/drawers.jpg" style="width: 100%; height: 100%;">
+      </div>
+      <div class="col-md-9" style="padding: 1%;">
+        <p style="font-family: 'Manrope', sans-serif;">Shift the overall look and feel by adding these wonderful touches to furniture in your home<br><br></p>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+        <p style="font-size: 13px;">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+        </p>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
+        Michelle Appleton<br>
+        28 Jun 2020
+        Share<br><br>
+      </div>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Aniruddh Muley</a>.
   </div>
 </body>
 </html>

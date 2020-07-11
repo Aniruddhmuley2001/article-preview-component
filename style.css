@@ -1,0 +1,27 @@
+.container{
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 0px;
+    box-shadow: 5px 10px 18px #88888818;
+    position: relative;
+    top: 70%;
+    -webkit-transform: translateY(90%);
+    -ms-transform: translateY(90%);
+    transform: translateY(90%);
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 0em;    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
