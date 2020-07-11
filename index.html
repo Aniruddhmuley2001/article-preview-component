@@ -14,27 +14,49 @@
 
   <title>Frontend Mentor | Article preview component</title>
 </head>
-<body style="background-color: hsl(210, 46%, 95%);">
+<body style="background-color: hsl(210, 46%, 95%); margin-top: 25%; margin-left: 5%; margin-right: 5%;">
   <div class="container d-flex justify-content-center">
     <div class="row">
-      <div class="col-md-3" style="padding-left: 0px; padding-right: 0px  ;">
-        <img src="images/drawers.jpg" style="width: 100%; height: 100%;">
+      <div class="col-md-4" style="padding-left: 0px; padding-right: 0px;">
+        <img class="image1" src="images/drawers.jpg" style="width: 100%; height: 100%;">
       </div>
-      <div class="col-md-9" style="padding: 1%;">
-        <p style="font-family: 'Manrope', sans-serif;">Shift the overall look and feel by adding these wonderful touches to furniture in your home<br><br></p>
+      <div class="col-md-8" style="padding: 7%;">
+        <p style="font-family: 'Manrope', sans-serif; font-size: 1.5rem;">Shift the overall look and feel by adding these wonderful touches to furniture in your home<br></p>
 
-        <p style="font-size: 13px;">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips 
+        <p style="font-size: 18px;">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips 
           to help you make any room feel complete.
-        </p>
+        </p><br>
 
-        Michelle Appleton<br>
-        28 Jun 2020
-        Share<br><br>
+        <!-- <div class="row">
+          <div class="col-md-3">
+            <img class="image2" src="images/avatar-michelle.jpg" style="width: 50x`%; height: 100%;">
+          </div>
+          <div class="col-md-6" style="padding-top: 2%; padding-left: 0px; padding-right: 0px;">
+            <b style="font-family: 'Manrope', sans-serif;">Michelle Appleton</b>
+            <br>28 Jun 2020
+          </div>
+          <div class="col-md-3">
+            Share
+          </div>
+        </div> -->
+
+        <div class="reference">
+          <img src="images/avatar-michelle.jpg" alt="Photo of a person" class="reference__avatar">
+          <div class="reference__info">
+            <h4 class="reference__info--name">Michelle Appleton</h4>
+            <p class="reference__info--date">28 Jun 2020</p>
+          </div>
+          <div class="reference__icon" id="share-icon">
+            <img src="images/icon-share.svg" alt="social-share" class="reference__icon--icon">
+          </div>
+        </div>
+        
+        <br><br>
       </div>
     </div>
   </div>
   
-  <div class="attribution">
+  <div class="attribution" style="margin-top: 50%;">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Aniruddh Muley</a>.
   </div>
